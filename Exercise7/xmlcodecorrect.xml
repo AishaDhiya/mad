@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Examination"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Board"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Percentage"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="year of pass"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Class x"
+            android:padding="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+
+
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Class xII"
+            android:padding="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+        <EditText
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            />
+
+
+
+
+    </TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Class x"
+        android:padding="20dp"
+        />
+    <EditText
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        />
+    <EditText
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        />
+    <EditText
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        />
+</TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="submit" />
+
+
+    </TableRow>
+</TableLayout>
